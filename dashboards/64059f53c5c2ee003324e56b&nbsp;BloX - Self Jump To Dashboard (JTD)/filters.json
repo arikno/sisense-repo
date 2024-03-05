@@ -73,39 +73,6 @@
                     "panel": "scope",
                     "table": "DimCustomers",
                     "title": "TerritoryID"
-                },
-                {
-                    "collapsed": true,
-                    "column": "StoreID",
-                    "datasource": {
-                        "address": "LocalHost",
-                        "database": "aSampleIAAaRetail",
-                        "fullname": "localhost/Sample Retail",
-                        "id": "localhost_aSampleIAAaRetail",
-                        "live": false,
-                        "title": "Sample Retail"
-                    },
-                    "datatype": "numeric",
-                    "dim": "[DimCustomers.StoreID]",
-                    "filter": {
-                        "explicit": true,
-                        "filter": {
-                            "all": true,
-                            "explicit": false,
-                            "multiSelection": true
-                        },
-                        "members": [
-                            "452",
-                            "516",
-                            "524",
-                            "632"
-                        ],
-                        "multiSelection": true
-                    },
-                    "instanceid": "ABF81-D4AD-7D",
-                    "isDashboardFilter": true,
-                    "table": "DimCustomers",
-                    "title": "StoreID"
                 }
             ],
             "model": {
