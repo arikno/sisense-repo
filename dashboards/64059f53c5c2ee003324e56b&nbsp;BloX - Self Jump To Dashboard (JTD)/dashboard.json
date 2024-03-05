@@ -13,6 +13,8 @@
     ],
     "filters": "./filters.json",
     "hierarchies": [
+        "./hierarchies/Region (1).json",
+        "./hierarchies/Region.json"
     ],
     "layout": "./layout.json",
     "oid": "64059f53c5c2ee003324e56b",
@@ -37,6 +39,7 @@
         "./widgets/64059f6dc5c2ee003324e56d/widget.json",
         "./widgets/6405a5ecc5c2ee003324e573/widget.json",
         "./widgets/65e0a3dd0946440040e5c318/widget.json",
-        "./widgets/65e725298b3b89003f3b8efd/widget.json"
+        "./widgets/65e725298b3b89003f3b8efd/widget.json",
+        "./widgets/65e7270f8b3b89003f3b8f31/widget.json"
     ]
 }
