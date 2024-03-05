@@ -1,0 +1,58 @@
+{
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "64059f53c5c2ee003324e56b",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail",
+        "fullname": "localhost/Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "live": false,
+        "title": "Sample Retail"
+    },
+    "desc": null,
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "oid": "6405a5ecc5c2ee003324e573",
+    "options": {
+        "dashboardFiltersMode": "filter",
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "hideFromWidgetList": true,
+        "selector": false,
+        "supportsHierarchies": false,
+        "toolbarButton": {
+            "css": "add-rich-text",
+            "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "triggersDomready": true
+    },
+    "style": {
+        "content": {
+            "bgColor": "#FFFFFF",
+            "html": "<b><font size=\"3\">self JTD using BloX&nbsp;&nbsp;</font></b>",
+            "textAlign": "center",
+            "vAlign": "valign-middle"
+        }
+    },
+    "subtype": "richtexteditor",
+    "title": "RICHTEXT_MAIN.TITLE",
+    "type": "richtexteditor",
+    "wasRendered": false
+}

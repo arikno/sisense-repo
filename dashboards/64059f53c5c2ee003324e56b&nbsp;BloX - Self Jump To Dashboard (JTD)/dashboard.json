@@ -1,0 +1,41 @@
+{
+    "dataExploration": false,
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail",
+        "fullname": "localhost/Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "live": false,
+        "title": "Sample Retail"
+    },
+    "desc": "",
+    "filterRelations": [
+    ],
+    "filters": "./filters.json",
+    "hierarchies": [
+    ],
+    "layout": "./layout.json",
+    "oid": "64059f53c5c2ee003324e56b",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "style": {
+        "palette": {
+            "colors": [
+                "#00cee6",
+                "#9b9bd7",
+                "#6EDA55",
+                "#fc7570",
+                "#fbb755",
+                "#218A8C"
+            ],
+            "name": "Vivid"
+        }
+    },
+    "title": "BloX - Self Jump To Dashboard (JTD)",
+    "widgets": [
+        "./widgets/64059f6dc5c2ee003324e56d/widget.json",
+        "./widgets/6405a5ecc5c2ee003324e573/widget.json",
+        "./widgets/65e0a3dd0946440040e5c318/widget.json"
+    ]
+}

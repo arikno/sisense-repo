@@ -1,0 +1,121 @@
+{
+    "filters": [
+        {
+            "disabled": false,
+            "instanceid": "BD9F4-B414-08",
+            "isCascading": true,
+            "levels": [
+                {
+                    "collapsed": true,
+                    "column": "Region",
+                    "datasource": {
+                        "address": "LocalHost",
+                        "database": "aSampleIAAaRetail",
+                        "fullname": "localhost/Sample Retail",
+                        "id": "localhost_aSampleIAAaRetail",
+                        "live": false,
+                        "title": "Sample Retail"
+                    },
+                    "datatype": "text",
+                    "dim": "[DimCountries.Region]",
+                    "filter": {
+                        "all": true,
+                        "explicit": false,
+                        "filter": {
+                            "explicit": true,
+                            "members": [
+                                "Europe"
+                            ],
+                            "multiSelection": true
+                        },
+                        "multiSelection": true
+                    },
+                    "instanceid": "BD9F4-B414-08",
+                    "isDashboardFilter": true,
+                    "merged": true,
+                    "panel": "scope",
+                    "table": "DimCountries",
+                    "title": "Region"
+                },
+                {
+                    "collapsed": true,
+                    "column": "TerritoryID",
+                    "datasource": {
+                        "address": "LocalHost",
+                        "database": "aSampleIAAaRetail",
+                        "fullname": "localhost/Sample Retail",
+                        "id": "localhost_aSampleIAAaRetail",
+                        "live": false,
+                        "title": "Sample Retail"
+                    },
+                    "datatype": "numeric",
+                    "dim": "[DimCustomers.TerritoryID]",
+                    "filter": {
+                        "explicit": true,
+                        "filter": {
+                            "all": true,
+                            "explicit": false,
+                            "multiSelection": true
+                        },
+                        "members": [
+                            "1",
+                            "3",
+                            "5",
+                            "7",
+                            "8",
+                            "10"
+                        ],
+                        "multiSelection": true
+                    },
+                    "instanceid": "CA1AF-6A86-95",
+                    "isDashboardFilter": true,
+                    "merged": true,
+                    "panel": "scope",
+                    "table": "DimCustomers",
+                    "title": "TerritoryID"
+                },
+                {
+                    "collapsed": true,
+                    "column": "StoreID",
+                    "datasource": {
+                        "address": "LocalHost",
+                        "database": "aSampleIAAaRetail",
+                        "fullname": "localhost/Sample Retail",
+                        "id": "localhost_aSampleIAAaRetail",
+                        "live": false,
+                        "title": "Sample Retail"
+                    },
+                    "datatype": "numeric",
+                    "dim": "[DimCustomers.StoreID]",
+                    "filter": {
+                        "explicit": true,
+                        "filter": {
+                            "all": true,
+                            "explicit": false,
+                            "multiSelection": true
+                        },
+                        "members": [
+                            "452",
+                            "516",
+                            "524",
+                            "632"
+                        ],
+                        "multiSelection": true
+                    },
+                    "instanceid": "ABF81-D4AD-7D",
+                    "isDashboardFilter": true,
+                    "table": "DimCustomers",
+                    "title": "StoreID"
+                }
+            ],
+            "model": {
+                "__store": [
+                    "[DimCountries.Region]",
+                    "[DimCustomers.TerritoryID]",
+                    "[DimCustomers.StoreID]"
+                ],
+                "instanceid": "3DCE3-9773-CD"
+            }
+        }
+    ]
+}
