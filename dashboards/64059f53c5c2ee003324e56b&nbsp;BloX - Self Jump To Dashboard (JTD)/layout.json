@@ -18,7 +18,7 @@
                                     }
                                 ],
                                 "index": 0,
-                                "pxlWidth": 1250,
+                                "pxlWidth": 1243,
                                 "stretchable": false,
                                 "width": 100
                             }
@@ -39,7 +39,7 @@
                                     }
                                 ],
                                 "index": 0,
-                                "pxlWidth": 1250,
+                                "pxlWidth": 1243,
                                 "stretchable": false,
                                 "width": 100
                             }
@@ -58,27 +58,48 @@
                                         "minWidth": 128,
                                         "widgetid": "65e0a3dd0946440040e5c318"
                                     }
+                                ],
+                                "index": 0,
+                                "pxlWidth": 1243,
+                                "stretchable": false,
+                                "width": 100
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "defaultWidth": 512,
+                                        "height": 384,
+                                        "maxHeight": 2048,
+                                        "maxWidth": 2048,
+                                        "minHeight": 96,
+                                        "minWidth": 128,
+                                        "widgetid": "65e725298b3b89003f3b8efd"
+                                    }
                                 ]
                             }
                         ]
                     }
                 ],
                 "index": 0,
-                "pxlWidth": 1250,
+                "pxlWidth": 1243,
                 "width": 100
             }
         ],
         "container": {
-            "sizzle1709219633355": {
+            "sizzle1709647112759": {
                 "undefined": {
                     "legend": [
-                        35,
+                        20,
                         0,
                         false
                     ],
                     "parentNode": [
-                        90.02040169837257,
-                        19,
+                        76.24763617083154,
+                        27,
                         true
                     ]
                 }
