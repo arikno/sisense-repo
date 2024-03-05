@@ -60,9 +60,26 @@
                                     }
                                 ],
                                 "index": 0,
-                                "pxlWidth": 1243,
+                                "pxlWidth": 620.5,
                                 "stretchable": false,
-                                "width": 100
+                                "width": 50
+                            },
+                            {
+                                "elements": [
+                                    {
+                                        "defaultWidth": 512,
+                                        "height": 384,
+                                        "maxHeight": 1028,
+                                        "maxWidth": 1028,
+                                        "minHeight": 64,
+                                        "minWidth": 48,
+                                        "widgetid": "65e72ad08b3b89003f3b8f90"
+                                    }
+                                ],
+                                "index": 1,
+                                "pxlWidth": 620.5,
+                                "stretchable": false,
+                                "width": 50
                             }
                         ]
                     },
@@ -97,6 +114,9 @@
                                         "widgetid": "65e7270f8b3b89003f3b8f31"
                                     }
                                 ],
+                                "index": 1,
+                                "pxlWidth": 621.5,
+                                "stretchable": false,
                                 "width": 50
                             }
                         ]
@@ -108,6 +128,20 @@
             }
         ],
         "container": {
+            "sizzle1709648537136": {
+                "undefined": {
+                    "legend": [
+                        25,
+                        0,
+                        false
+                    ],
+                    "parentNode": [
+                        55.20948675729978,
+                        29,
+                        true
+                    ]
+                }
+            }
         },
         "instanceid": "736E4-A153-B2",
         "type": "columnar"
